@@ -1,0 +1,106 @@
+        body {
+            background-image: url('facultybackground.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            font-family: 'Times New Roman', Times, serif;;
+            color: #0f0;
+            padding: 20px;
+        }
+        
+	header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        footer {
+            margin-top: 20px;
+            color: #ccc;
+            text-align: center;
+            font-size: 0.8em;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #0ff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: #f00;
+            text-decoration: underline;
+        }
+
+        h1, h2, h3 {
+            color: #ff00ff; 
+        }
+        a {
+            color: #00ffff; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #333; 
+            padding: 10px;
+            text-align: left;
+        }
+        img {
+            border: 2px solid #00ffff; 
+        }
+        ul {
+            list-style-type: none; 
+        }
+        li {
+            display: inline; 
+            margin-right: 20px; 
+        }
+    	p {
+        color: #ccc; 
+        margin: 0; 
+    	}
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .search-input {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+        .search-button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #333;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            cursor: pointer;
+        }
+        .search-button:hover {
+            background: #0b7dda;
+        }
+        @media screen and (max-width: 600px) {
+            .search-input, .search-button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+            }
+        }
+        .search-input, .search-button {
+            background-color: #222;
+            border-color: #0ff;
+            color: #0ff;
+        }
